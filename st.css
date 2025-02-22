@@ -38,7 +38,7 @@ body {
   color: #5F5F5F;
   font-size: 56px;
 }
-textarea  {
+textarea {
   font-family: interb;
   width: 700px;
   height: 150px;
@@ -47,23 +47,29 @@ textarea  {
   padding: 25px;
   border-width: 5px;
   border-radius: 27px;
-  border-image: linear-gradient(to bottom, #cad2ff, #EBEEFF);
-}
-.enterbtn {
-  background-color: transparent; 
-  border: none;
+  border-color: #cad2ff;
 }
 .prices {
   width: 100%;
   height: auto;
-  background: linear-gradient(to bottom, #E3E8FF, #DEE4FF);
-  padding: 90px;
+  background: #CED6FF;
+  padding: 50px;
   border-radius: 30px;
+  color:#5F5F5F;
+  display: flex;
 }
 .pricearea {
-  background-color: linear-gradient(to bottom, #E3E8FF, #DEE4FF);
-  width: 460px; height: 250px;
-  border-radius: 30px;
+  background: linear-gradient(to bottom, #E3E8FF, #DEE4FF);
+  width: 200px; height: auto;
+  border-radius: 12px;
+  padding: 13px;
+  color: #848FC5;
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+.cost {
+  padding-left: 10px;
 }
 a {
   color: #9AA8E8; 
